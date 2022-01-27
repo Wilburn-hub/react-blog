@@ -68,7 +68,7 @@ const MyInfo = () => {
       <Divider orientation='center'>关于我</Divider>
 
       <ul className='about-list'>
-        <li>姓名：潘云逸</li>
+        <li>姓名：刘伟佳</li>
         <li>本科： 中央财经大学（CUFE）CS</li>
         <li>硕士： 南京大学（NJU）CS</li>
         <li>
