@@ -15,7 +15,7 @@ export const HEADER_BLOG_NAME = '菜园子' // header title 显示的名字
 
 // === sidebar
 export const SIDEBAR = {
-  avatar: require('https://github.com/account'), // 侧边栏头像
+  avatar: 'https://avatars.githubusercontent.com/u/64264596?s=400&u=65b8a1ec510eb7ccd9d4913e3ecb16123be8f86d&v=4', // 侧边栏头像
   title: 'WeiJia', // 标题
   subTitle: 'wilburn', // 子标题
   // 个人主页
