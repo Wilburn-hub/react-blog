@@ -6,8 +6,8 @@ import Href from '@/components/Href'
 import MyInfo from '@/views/web/about/MyInfo'
 import {GithubFill} from 'utils/antdIcon'
 // API_BASE_URL
-export const SERVER_URL = 'http://www.panyunyi.cn'
-// export const SERVER_URL = 'http://127.0.0.1'
+// export const SERVER_URL = 'http://www.panyunyi.cn'
+export const SERVER_URL = 'http://127.0.0.1'
 export const API_BASE_URL = SERVER_URL + ':6060'
 // export const API_BASE_URL = 'http://127.0.0.1:6060'
 // project config
@@ -15,29 +15,22 @@ export const HEADER_BLOG_NAME = '菜园子' // header title 显示的名字
 
 // === sidebar
 export const SIDEBAR = {
-  avatar: require('@/assets/images/avatar.jpeg'), // 侧边栏头像
-  title: '种菜的小朋友', // 标题
-  subTitle: 'Carpe diem', // 子标题
+  avatar: require('https://github.com/account'), // 侧边栏头像
+  title: 'WeiJia', // 标题
+  subTitle: 'wilburn', // 子标题
   // 个人主页
   homepages: {
     github: {
-      link: 'https://github.com/panyunyi97',
+      link: 'https://github.com/https://github.com/Wilburn-hub',
       icon: <GithubFill className='homepage-icon' />
     },
     juejin: {
-      link: 'https://juejin.im/user/96412755827687',
+      link: 'https://xxxxxx',
       icon: <SvgIcon type='iconjuejin' className='homepage-icon' />
     }
   },
   friendslink: {
-    lizi: {
-      link: 'http://blog.liziyang.co/',
-      img: 'http://blog.liziyang.co/images/pikachu.jpg',
-    },
-    wizchen: {
-      link: 'http://blog.wizchen.com',
-      img: 'https://cdn.jsdelivr.net/gh/wizcheu/content1@main/img/header.gif'
-    }
+
   }
 }
 
@@ -66,7 +59,7 @@ export const ANNOUNCEMENT = {
   content: (
     <>
       个人笔记网站，请访问
-      <Href href='https://www.yuque.com/zhongcaidexiaopengyou/kb'> panyunyi's note</Href>
+      <Href href='https://blog.csdn.net/weixin_47426048?spm=1000.2115.3001.5343'> panyunyi's note</Href>
     </>
   )
 }
