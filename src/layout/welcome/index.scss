@@ -29,7 +29,7 @@ h1 {
 	justify-content: center;
 	min-height: '35rem';
 	height: 100%;
-	background-image: linear-gradient(to bottom,  rgba(255,168,76,0.6) 0%,rgba(255,123,13,0.6) 100%), url(../../assets/images/welcome.jpeg);
+	background-image: linear-gradient(to bottom,  rgba(255,168,76,0.6) 0%,rgba(255,123,13,0.6) 100%), url(../../assets/images/imgs.jpeg);
 	background-blend-mode: soft-light;
 	background-size: cover;
 	background-position: center center;
@@ -41,8 +41,8 @@ h1 {
 // Edit these strings to see them typed on the screen:
 $strings: (
 	"刘伟佳"
-	"mua"
-	"少年游"
+	"咸鱼也可以有梦想"
+	"💋💋加油！！"
 );
 
 // now for some timing (in seconds)
@@ -136,9 +136,9 @@ div {
 		display: inline-block;
 		padding-right: 3px;
 		padding-right: calc(3px + 0.1vw);
-		border-right: 10px solid rgba(#3f3, 0.75);
-		border-right: calc(1.1vw + 4px) solid rgba(#3f3, 0.75);
-		text-shadow: 0 0 5px rgba(51, 255, 51, 0.75);
+		border-right: 10px solid rgba(rgba(51, 133, 255, 0.885), 0.75);
+		border-right: calc(0.1vw + 1px) solid rgba(rgba(72, 154, 242, 0.801), 0.75);
+		text-shadow: 0 0 5px rgba(rgba(51, 133, 255, 0.885), 0.75);
 		white-space: nowrap;
 		animation: typed #{$durTotal + "s"} linear 1s infinite, beam-blink 1s infinite;
 	}

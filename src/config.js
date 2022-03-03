@@ -11,7 +11,7 @@ export const SERVER_URL = 'http://127.0.0.1'
 export const API_BASE_URL = SERVER_URL + ':6060'
 // export const API_BASE_URL = 'http://127.0.0.1:6060'
 // project config
-export const HEADER_BLOG_NAME = '菜园子' // header title 显示的名字
+export const HEADER_BLOG_NAME = '伟佳' // header title 显示的名字
 
 // === sidebar
 export const SIDEBAR = {
