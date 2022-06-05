@@ -21,6 +21,7 @@ const WebLayout = props => {
         </Col>
         <Col {...contentLayout}>
           <AppMain {...props} />
+          <a href='http://beian.miit.gov.cn' rel='noopener noreferrer' target='_blank'>蜀ICP备2022003674号</a>
         </Col>
       </Row>
       <BackTop target={() => document.querySelector('.app-main')} />
