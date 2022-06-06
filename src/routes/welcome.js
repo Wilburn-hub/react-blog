@@ -1,5 +1,6 @@
 import { GITHUB } from '@/config'
-import Layout from '@/layout/welcome'
+import Layout from '@/layout/web'
+// import Layout from '@/layout/welcome'
 import lazy from '@/components/Lazy'
 
 export default {
