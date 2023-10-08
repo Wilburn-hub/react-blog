@@ -4,7 +4,7 @@ import { save, get, remove } from '@/utils/storage'
 // ====== state
 let defaultState = {
   username: '',
-  role: 2,
+  role: 1,
   userId: 0,
   github: null,
   email: null
