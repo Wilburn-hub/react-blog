@@ -33,7 +33,7 @@ const config = {
   DATABASE: {
     database: 'blog',
     user: 'root',
-    password: 'Lwj971004',
+    password: 'lwj971004',
     options: {
       host: 'localhost', // 连接的 host 地址
       dialect: 'mysql', // 连接到 mysql
@@ -60,7 +60,7 @@ if (!devMode) {
   config.DATABASE = {
     database: 'blog',
     user: 'root',
-    password: 'Lwj971004',
+    password: 'lwj971004',
     options: {
       host: 'localhost', // 连接的 host 地址
       dialect: 'mysql', // 连接到 mysql

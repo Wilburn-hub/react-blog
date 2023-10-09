@@ -18,13 +18,13 @@ const App = props => {
     const renderRoute = (item, routeContextPath) => {
       let newContextPath = item.path ? `${routeContextPath}/${item.path}` : routeContextPath
       newContextPath = newContextPath.replace(/\/+/g, '/')
-      if (newContextPath.includes('admin') && role !== 1) {
-        item = {
-          ...item,
-          component: () => <Redirect to='/' />,
-          children: []
-        }
-      }
+      // if (newContextPath.includes('admin') && role !== 1) {
+      //   item = {
+      //     ...item,
+      //     component: () => <Redirect to='/' />,
+      //     children: []
+      //   }
+      // }
       if (!item.component) return
 
       if (item.childRoutes) {

@@ -21,7 +21,7 @@ export const SIDEBAR = {
   // 个人主页
   homepages: {
     github: {
-      link: 'https://github.com/https://github.com/Wilburn-hub',
+      link: 'https://github.com/Wilburn-hub',
       icon: <GithubFill className='homepage-icon' />
     },
     juejin: {
@@ -42,7 +42,7 @@ export const DISCUSS_AVATAR = SIDEBAR.avatar // 评论框博主头像
  */
 export const GITHUB = {
   enable: true, // github 第三方授权开关
-  client_id: '87a4f88b943adaafd44a', // Setting > Developer setting > OAuth applications => client_id
+  client_id: 'e10ac362636cfd89e7b3', // Setting > Developer setting > OAuth applications => client_id
   url: 'https://github.com/login/oauth/authorize' // 跳转的登录的地址
 }
 

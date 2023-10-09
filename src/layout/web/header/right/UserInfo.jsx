@@ -20,12 +20,12 @@ function UserInfo(props) {
 
   const MenuOverLay = (
     <Menu>
-      {role === 1 && (
+      {role === 2 && (
         <Menu.Item>
           <span onClick={e => bus.emit('openUploadModal')}>导入文章</span>
         </Menu.Item>
       )}
-      {role === 1 && (
+      {role === 2 && (
         <Menu.Item>
           <span onClick={e => props.history.push('/admin')}>后台管理</span>
         </Menu.Item>
