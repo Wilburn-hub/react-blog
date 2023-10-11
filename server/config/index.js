@@ -1,10 +1,10 @@
 const devMode = process.env.NODE_ENV === 'development'
 const config = {
   PORT: 6060, // 启动端口
-  ADMIN_GITHUB_LOGIN_NAME: 'panyunyi97', // 博主的 github 登录的账户名 user
+  ADMIN_GITHUB_LOGIN_NAME: 'wilburn-hub', // 博主的 github 登录的账户名 user
   GITHUB: {
-    client_id: '87a4f88b943adaafd44a',
-    client_secret: '9494809fc485d93084452fbf8b21ba2a829bfb82',
+    client_id: 'e10ac362636cfd89e7b3',
+    client_secret: 'b42adda6d917d7e433fe637499cf578422dc8f5a',
     access_token_url: 'https://github.com/login/oauth/access_token',
     fetch_user_url: 'https://api.github.com/user', // 用于 oauth2
     fetch_user: 'https://api.github.com/user' // fetch user url https://api.github.com/users/gershonv
@@ -22,9 +22,9 @@ const config = {
         pass: 'f2bbfe7cf1bcb8253a65c06701fbbbbf8c910be44ecc1a430497d4879db0d71d' // generated ethereal password 授权码 而非 密码
       }
     },
-    subject: 'panyunyi的博客 - 您的评论获得新的回复！', // 主题
+    subject: 'liuweijia的博客 - 您的评论获得新的回复！', // 主题
     text: '您的评论获得新的回复！',
-    WEB_HOST: 'http://www.panyunyi.cn' // email callback url
+    WEB_HOST: 'http://www.liuweijia.vip' // email callback url
   },
   TOKEN: {
     secret: 'root', // secret is very important!
@@ -59,7 +59,7 @@ if (!devMode) {
   // ==== 配置数据库
   config.DATABASE = {
     database: 'blog',
-    user: 'root',
+    user: 'blog',
     password: 'lwj971004',
     options: {
       host: 'localhost', // 连接的 host 地址
@@ -95,7 +95,7 @@ if (!devMode) {
     user: '779087031@qq.com', // generated ethereal user
     pass: 'f2bbfe7cf1bcb8253a65c06701fbbbbf8c910be44ecc1a430497d4879db0d71d' // generated ethereal password 授权码 而非 密码
   }
-  config.EMAIL_NOTICE.WEB_HOST = 'https://panyunyi.cn'
+  config.EMAIL_NOTICE.WEB_HOST = 'https://liuweijia.cn'
 }
 
 module.exports = config

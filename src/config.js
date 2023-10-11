@@ -6,8 +6,8 @@ import Href from '@/components/Href'
 import MyInfo from '@/views/web/about/MyInfo'
 import {GithubFill} from 'utils/antdIcon'
 // API_BASE_URL
-// export const SERVER_URL = 'http://www.panyunyi.cn'
-export const SERVER_URL = 'http://127.0.0.1'
+export const SERVER_URL = 'http://www.liuweijia.vip'
+// export const SERVER_URL = 'http://127.0.0.1'
 export const API_BASE_URL = SERVER_URL + ':6060'
 // export const API_BASE_URL = 'http://127.0.0.1:6060'
 // project config
@@ -59,7 +59,7 @@ export const ANNOUNCEMENT = {
   content: (
     <>
       个人笔记网站，请访问
-      <Href href='https://blog.csdn.net/weixin_47426048?spm=1000.2115.3001.5343'> panyunyi's note</Href>
+      <Href href='https://blog.csdn.net/weixin_47426048?spm=1000.2115.3001.5343'> weijia note</Href>
     </>
   )
 }

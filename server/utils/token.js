@@ -18,7 +18,7 @@ exports.createToken = info => {
 exports.checkToken = (ctx, roleList = []) => {
   let isVerify = false
   function _verify(token) {
-    return jwt.verify(token, TOKEN.secret, function(err, decoded) {
+    return jwt.verify(token, TOKEN.secret, function(err, decoded) { // 验证
       if (err) {
         return false
       } else if (decoded) {

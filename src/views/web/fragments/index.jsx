@@ -63,7 +63,7 @@ function FragmentList(props) {
             <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', width: '100%' }}>
               {/* <List.Item.Meta
                 style={{ display: 'flex', flexDirection: 'row'}}
-                avatar={<Avatar src={'http://www.panyunyi.cn/static/media/avatar.7e58ba1b.jpeg'} />}
+                avatar={<Avatar src={'http://www.liuweijia.vip/static/media/avatar.7e58ba1b.jpeg'} />}
                 title={'刘伟佳'}
                 description={dayjs(item.createdAt, 'YYYYMMDD', 'zh-cn').fromNow()}
               /> */}
@@ -71,7 +71,7 @@ function FragmentList(props) {
                 <p style={{justifySelf: 'flex-start', marginLeft: '3%', fontFamily: 'Comic Sans MS', fontSize: 15}}>{item.content}</p>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
                   <div style={{display: 'flex', flexDirection: 'row'}}>
-                    <Avatar style={{marginRight: '10px'}} src={'http://www.panyunyi.cn/static/media/avatar.7e58ba1b.jpeg'} />
+                    <Avatar style={{marginRight: '10px'}} src={'http://www.liuweijia.vip/static/media/avatar.7e58ba1b.jpeg'} />
                     <p style={{margin: 'auto', fontSize: 13}}>刘伟佳</p>
                   </div>
                   <div style={{display: 'flex', justifySelf: 'flex-end', alignSelf: 'flex-end', fontSize: 8}}>{dayjs(item.createdAt, 'YYYYMMDDHHmmss', 'zh-cn').format('YYYY-MM-DD HH:mm:ss') }</div>

@@ -7,7 +7,7 @@ const logger = require('koa-logger')
 //  config
 const config = require('./config')
 
-const loadRouter = require('./router')
+const loadRouter = require('./router') // 路由
 const db = require('./models')
 
 // app...
@@ -45,7 +45,7 @@ app
 loadRouter(app)
 
 app.listen(config.PORT, () => {
-  db.sequelize
+  db.sequelize // 连接数据库
     .sync({ force: false }) // If force is true, each DAO will do DROP TABLE IF EXISTS ..., before it tries to create its own table
     .then(async () => {
       const initData = require('./initData')

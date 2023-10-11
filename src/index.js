@@ -8,6 +8,7 @@ import store from '@/redux'
 
 // styles
 import '@/assets/icons/iconfont'
+import '@/assets/myIcons/iconfont'
 import '@/styles/index.less'
 
 ReactDOM.render(

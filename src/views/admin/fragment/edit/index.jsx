@@ -5,7 +5,7 @@ import axios from '@/utils/axios'
 import { PlusCircleFill, PlusCircleOutline } from 'utils/antdIcon'
 function FragmentEdit(props) {
   const [content, setContent] = useState('')
-  const [author, setAuthor] = useState('panyunyi')
+  const [author, setAuthor] = useState('liuweijia')
   const editId = parseInt(props.match.params.id)
   function fetchFragment(id) {
     axios.get(`/fragment/${id}`).then(res => {
